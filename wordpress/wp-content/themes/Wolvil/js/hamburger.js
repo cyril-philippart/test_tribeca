@@ -16,3 +16,8 @@ overlay.addEventListener('click', function(e) {
     this.parentNode.classList.remove(activatedClass);
 });
 
+function play() {
+    var activatedAnimation = 'containerLoebMove';
+    togglerSelect = document.querySelector(".containerLoeb");
+    togglerSelect.classList.add(activatedAnimation);
+}

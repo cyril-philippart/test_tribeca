@@ -11,11 +11,16 @@ get_header();
     </div>
     <div class="presentationLoeb">
         <div class="text">
-            <h1>Sebastien Loeb</h1>
+            <h1>Hi,<br> i'm Sebastien Loeb</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In quam quisquam recusandae, odit, commodi repudiandae assumenda ad molestiae ab iusto labore esse architecto temporibus, praesentium aspernatur corrupti eius beatae eveniet.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laudantium, nobis dolorem error, praesentium optio quam debitis ut at doloribus expedita aperiam enim. Libero, architecto nulla. Quasi tempora consequuntur aperiam?</p>
         </div>
-        <img id="imgLoeb" class="img-fluid" src="wp-content/themes/Wolvil/images/SebLoeb.png" alt="">
+        <div class="containerLoeb">
+            <img id="imgLoeb" class="img-fluid" src="wp-content/themes/Wolvil/images/SebLoeb.png" alt="">
+        </div>
+        <div class="togglerAnimation">
+            <i id="togglerIcon" class="fas fa-play" onclick="play()"></i>
+        </div>
     </div>
     <div class="moteur">
         <div class="asideMoteur">
