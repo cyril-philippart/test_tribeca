@@ -125,7 +125,7 @@ nav > ul >li {
 }
 
 .moteur {
-    margin-top: 20rem;
+    margin-top: 12rem;
 }
 
 .asideMoteur {
@@ -201,6 +201,9 @@ form > div > textarea {
     margin-bottom: 1rem;
 }
 
+.signature {
+    margin-left: 15rem;
+}
 
 @media (max-width : 768px) {
     .logoWolvil {
@@ -403,5 +406,22 @@ form > div > textarea {
         100% {
           transform: scale(0.9);
         }
+    }
+
+    .adress {
+        padding-top: 1rem;
+    }
+
+    .imgPassion {
+        width: 32%;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+
+    .imgPassion:hover {
+        -webkit-transform: scale(1.03);
+        transform: scale(1.03);
     }
 }

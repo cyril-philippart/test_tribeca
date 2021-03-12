@@ -14,23 +14,24 @@ get_header();
             <h1>Hi,<br> i'm Sebastien Loeb</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In quam quisquam recusandae, odit, commodi repudiandae assumenda ad molestiae ab iusto labore esse architecto temporibus, praesentium aspernatur corrupti eius beatae eveniet.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laudantium, nobis dolorem error, praesentium optio quam debitis ut at doloribus expedita aperiam enim. Libero, architecto nulla. Quasi tempora consequuntur aperiam?</p>
+            <img class="signature" src="wp-content/themes/Wolvil/images/CINQPLUS_Signature-Sebastien-LOEB-Racing copie.png" alt="signature Sebastien Loeb">
         </div>
         <div class="containerLoeb">
             <img id="imgLoeb" class="img-fluid" src="wp-content/themes/Wolvil/images/SebLoeb.png" alt="">
         </div>
         <div class="togglerAnimation">
-            <i id="togglerIcon" class="fas fa-play" onclick="play()"></i>
+            <i id="togglerIcon" class="fas fa-chevron-right" onclick="play()"></i>
         </div>
     </div>
     <div class="moteur">
         <div class="asideMoteur">
-            <h1>Moteur</h1>
+            <h1>Ma passion, mon moteur</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid maxime deserunt fugit. Tempore aperiam odio quasi exercitationem atque nobis cumque dolore quos amet? Eligendi deserunt odit rerum nemo facere quaerat.</p>
         </div>
         <div class="imgMoteur">
-            <img class="img-fluid" src="wp-content/themes/Wolvil/images/moteur 1.png" alt="">
-            <img id="imgCenter" class="img-fluid" id="centerImg" src="wp-content/themes/Wolvil/images/moteur 2.png" alt="">
-            <img class="img-fluid" src="wp-content/themes/Wolvil/images/moteur 3.png" alt="">
+            <img class="img-fluid imgPassion" src="wp-content/themes/Wolvil/images/voiture_Loeb.jpg" alt="">
+            <img id="imgCenter" class="img-fluid imgPassion" id="centerImg" src="wp-content/themes/Wolvil/images/sebastien_loeb.jpg" alt="">
+            <img class="img-fluid imgPassion" src="wp-content/themes/Wolvil/images/moteur.jpg" alt="">
         </div>
         <div class="asideMoteur">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum molestiae atque hic molestias minima, ratione reprehenderit nostrum vel perferendis corporis! Cum in eos recusandae quisquam quae rem voluptatibus facilis tenetur!.</p>
@@ -87,3 +88,4 @@ get_header();
 </div>
 <?php
 get_footer();
+?>
