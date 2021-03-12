@@ -263,6 +263,10 @@ form > div > textarea {
     #hamburger {
         margin-right: 3%;
     }
+
+    .signature {
+        margin-left: 3rem;
+    }
 }
 
 #hamburger-button {
@@ -346,7 +350,7 @@ form > div > textarea {
 
 @media screen and (min-width : 1024px) {
     .containerLoeb {
-        width: 25%;
+        width: 27%;
         position: absolute;
         background-color: black; 
         z-index: 1000;
@@ -358,7 +362,7 @@ form > div > textarea {
     }
 
     .containerLoebMove {
-        width: 25%;
+        width: 27%;
         position: absolute;
         background-color: black; 
         animation: 3s ease-in-out blockMove;
