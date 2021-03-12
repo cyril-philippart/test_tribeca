@@ -205,6 +205,10 @@ form > div > textarea {
     margin-left: 15rem;
 }
 
+.imgPassion {
+    height: 290px;
+}
+
 @media (max-width : 768px) {
     .logoWolvil {
         width: 15%;
@@ -266,6 +270,10 @@ form > div > textarea {
 
     .signature {
         margin-left: 3rem;
+    }
+
+    .imgPassion {
+        height: 240px;
     }
 }
 
