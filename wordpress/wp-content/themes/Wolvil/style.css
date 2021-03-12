@@ -124,10 +124,6 @@ nav > ul >li {
     width: 50%;
 }
 
-.moteur {
-    margin-top: 12rem;
-}
-
 .asideMoteur {
     text-align: center;
     width: 70%;
@@ -358,7 +354,8 @@ form > div > textarea {
 
 @media screen and (min-width : 1024px) {
     .containerLoeb {
-        width: 27%;
+        width: 486px;
+        height: 511px;
         position: absolute;
         background-color: black; 
         z-index: 1000;
@@ -370,7 +367,8 @@ form > div > textarea {
     }
 
     .containerLoebMove {
-        width: 27%;
+        width: 486px;
+        height: 511px;
         position: absolute;
         background-color: black; 
         animation: 3s ease-in-out blockMove;
@@ -439,6 +437,6 @@ form > div > textarea {
 
     .moteur {
         width: 70%;
-        margin: auto;
+        margin: 7rem auto;
     }
 }
