@@ -206,7 +206,7 @@ form > div > textarea {
 }
 
 .imgPassion {
-    height: 290px;
+    height: 205px;
 }
 
 @media (max-width : 768px) {
@@ -435,5 +435,10 @@ form > div > textarea {
     .imgPassion:hover {
         -webkit-transform: scale(1.03);
         transform: scale(1.03);
+    }
+
+    .moteur {
+        width: 70%;
+        margin: auto;
     }
 }
