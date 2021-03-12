@@ -439,4 +439,9 @@ form > div > textarea {
         width: 70%;
         margin: 7rem auto;
     }
+
+    .presentationLoeb {
+        margin-bottom: 13rem;
+    }
+    
 }
